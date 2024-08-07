@@ -10,11 +10,11 @@ api_maker_router.get("/api/products/trending", prod_controller.get_trending_prod
 
 module.exports = api_maker_router;
 
- // api/products?category=Essentials --> in the http.post
- // api/products
+ // api/products?category=Essentials --> in the http.post (frontend)
+ // api/products (backend)
  // req.query.category
 
 
- // api/product/search/:name  ---> in node
- // api/products/search/${name} ---> in http request
+ // api/products/search/${name} ---> in http request (frontend)
+ // api/product/search/:name  ---> in node (backend)
  // req.params.name

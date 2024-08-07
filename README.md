@@ -1,2 +1,2 @@
 # KYND-Node
-This is the backend of the Kynd project
+This is the backend of the project kynd
